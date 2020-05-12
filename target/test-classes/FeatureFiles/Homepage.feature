@@ -29,5 +29,3 @@ Feature: verify User Is Able to Navigate to All pages
       | Transaction Monitoring Validator | Transaction Monitoring Validator   AML Analytics |
 
 
-
-

@@ -124,7 +124,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 8845523355,
+  "duration": 7412091533,
   "status": "passed"
 });
 formatter.scenario({
@@ -179,14 +179,14 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTheHomePage()"
 });
 formatter.result({
-  "duration": 579722770,
+  "duration": 178296035,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnServicesPage()"
 });
 formatter.result({
-  "duration": 236075741,
+  "duration": 151269679,
   "status": "passed"
 });
 formatter.match({
@@ -199,7 +199,7 @@ formatter.match({
   "location": "MyStepdefs.userNavigateToPagelink(String)"
 });
 formatter.result({
-  "duration": 817899568,
+  "duration": 251811643,
   "status": "passed"
 });
 formatter.match({
@@ -212,15 +212,11 @@ formatter.match({
   "location": "MyStepdefs.shouldAbleToSeeServicesPage(String)"
 });
 formatter.result({
-  "duration": 7381711,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 759276531,
+  "duration": 5639454,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5208286452,
+  "duration": 5225801816,
   "status": "passed"
 });
 formatter.scenario({
@@ -275,14 +271,14 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTheHomePage()"
 });
 formatter.result({
-  "duration": 54312,
+  "duration": 46614,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnServicesPage()"
 });
 formatter.result({
-  "duration": 161895134,
+  "duration": 142697384,
   "status": "passed"
 });
 formatter.match({
@@ -295,7 +291,7 @@ formatter.match({
   "location": "MyStepdefs.userNavigateToPagelink(String)"
 });
 formatter.result({
-  "duration": 512998712,
+  "duration": 395305744,
   "status": "passed"
 });
 formatter.match({
@@ -308,15 +304,11 @@ formatter.match({
   "location": "MyStepdefs.shouldAbleToSeeServicesPage(String)"
 });
 formatter.result({
-  "duration": 4451435,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 588629489,
+  "duration": 7016495,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5795417447,
+  "duration": 7594540075,
   "status": "passed"
 });
 formatter.scenario({
@@ -371,14 +363,14 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTheHomePage()"
 });
 formatter.result({
-  "duration": 62010,
+  "duration": 54740,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnServicesPage()"
 });
 formatter.result({
-  "duration": 173713738,
+  "duration": 141860895,
   "status": "passed"
 });
 formatter.match({
@@ -391,7 +383,7 @@ formatter.match({
   "location": "MyStepdefs.userNavigateToPagelink(String)"
 });
 formatter.result({
-  "duration": 418633762,
+  "duration": 236386217,
   "status": "passed"
 });
 formatter.match({
@@ -404,15 +396,11 @@ formatter.match({
   "location": "MyStepdefs.shouldAbleToSeeServicesPage(String)"
 });
 formatter.result({
-  "duration": 15513096,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 667495457,
+  "duration": 4993271,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5099913315,
+  "duration": 5933574871,
   "status": "passed"
 });
 formatter.scenario({
@@ -467,14 +455,14 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTheHomePage()"
 });
 formatter.result({
-  "duration": 59872,
+  "duration": 128295,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnServicesPage()"
 });
 formatter.result({
-  "duration": 147659864,
+  "duration": 157119537,
   "status": "passed"
 });
 formatter.match({
@@ -487,7 +475,7 @@ formatter.match({
   "location": "MyStepdefs.userNavigateToPagelink(String)"
 });
 formatter.result({
-  "duration": 288142864,
+  "duration": 356734907,
   "status": "passed"
 });
 formatter.match({
@@ -500,15 +488,11 @@ formatter.match({
   "location": "MyStepdefs.shouldAbleToSeeServicesPage(String)"
 });
 formatter.result({
-  "duration": 7794822,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 602360129,
+  "duration": 6688913,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5497326958,
+  "duration": 5793180824,
   "status": "passed"
 });
 formatter.scenario({
@@ -563,14 +547,14 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTheHomePage()"
 });
 formatter.result({
-  "duration": 93656,
+  "duration": 167640,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnServicesPage()"
 });
 formatter.result({
-  "duration": 146482109,
+  "duration": 150287789,
   "status": "passed"
 });
 formatter.match({
@@ -583,7 +567,7 @@ formatter.match({
   "location": "MyStepdefs.userNavigateToPagelink(String)"
 });
 formatter.result({
-  "duration": 251460540,
+  "duration": 507611573,
   "status": "passed"
 });
 formatter.match({
@@ -596,15 +580,11 @@ formatter.match({
   "location": "MyStepdefs.shouldAbleToSeeServicesPage(String)"
 });
 formatter.result({
-  "duration": 4991132,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 615208949,
+  "duration": 15534906,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4806645892,
+  "duration": 7721490865,
   "status": "passed"
 });
 formatter.scenario({
@@ -659,14 +639,14 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTheHomePage()"
 });
 formatter.result({
-  "duration": 76977,
+  "duration": 143264,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnServicesPage()"
 });
 formatter.result({
-  "duration": 183251673,
+  "duration": 147429787,
   "status": "passed"
 });
 formatter.match({
@@ -679,7 +659,7 @@ formatter.match({
   "location": "MyStepdefs.userNavigateToPagelink(String)"
 });
 formatter.result({
-  "duration": 329161156,
+  "duration": 805439911,
   "status": "passed"
 });
 formatter.match({
@@ -692,15 +672,11 @@ formatter.match({
   "location": "MyStepdefs.shouldAbleToSeeServicesPage(String)"
 });
 formatter.result({
-  "duration": 9266375,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 667963309,
+  "duration": 5655704,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5225884353,
+  "duration": 14447885621,
   "status": "passed"
 });
 formatter.scenario({
@@ -755,14 +731,14 @@ formatter.match({
   "location": "MyStepdefs.userIsOnTheHomePage()"
 });
 formatter.result({
-  "duration": 118460,
+  "duration": 93656,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnServicesPage()"
 });
 formatter.result({
-  "duration": 154494179,
+  "duration": 145551537,
   "status": "passed"
 });
 formatter.match({
@@ -775,7 +751,7 @@ formatter.match({
   "location": "MyStepdefs.userNavigateToPagelink(String)"
 });
 formatter.result({
-  "duration": 282401200,
+  "duration": 272318437,
   "status": "passed"
 });
 formatter.match({
@@ -788,11 +764,7 @@ formatter.match({
   "location": "MyStepdefs.shouldAbleToSeeServicesPage(String)"
 });
 formatter.result({
-  "duration": 14690720,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 748743450,
+  "duration": 4199121,
   "status": "passed"
 });
 });

@@ -1,16 +1,18 @@
-package lf;
+package Test;
 
+import PO.HomePage;
+import PO.Services;
+import PO.Utils;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 
 public class MyStepdefs extends Utils {
 
     HomePage hm = new HomePage();
-    Services  services  = new Services();
+    Services services  = new Services();
 
     @Given("^user is on the home page$")
     public void userIsOnTheHomePage() {
@@ -18,7 +20,7 @@ public class MyStepdefs extends Utils {
 
     @When("^User click On  ([^\"]*)$")
     public void userClickOnLink(String link) {
-        waitForElementToBeDisplay(By.linkText(link),2000);
+//        waitForElementToBeDisplay(By.linkText(link),2000);
         click_Element(By.linkText(link));
     }
     @Then("^should be able to see ([^\"]*)$")
@@ -42,7 +44,7 @@ public class MyStepdefs extends Utils {
     public void userNavigateToPagelink(String  pagelink) {
         String  css = "[title=" + '"' +  pagelink + '"' + "]";
         System.out.println(css);
-        waitForElementToBeDisplay(By.cssSelector(css),10);
+//        waitForElementToBeDisplay(By.cssSelector(css),10);
         click_Element(By.cssSelector(css));
     }
 

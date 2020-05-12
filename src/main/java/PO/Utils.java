@@ -1,10 +1,9 @@
-package lf;
+package PO;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 
@@ -27,11 +26,11 @@ public class Utils extends BasePage {
     public static void send_keys(By by, String b) { driver.findElement(by).sendKeys(b); }
 
     // Will wait until element is clickable then click
-    public static void waitAndClick(By by, int time) {
-        WebDriverWait wait = new WebDriverWait(driver, time);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-        driver.findElement(by).click();
-    }
+//    public static void waitAndClick(By by, int time) {
+//        WebDriverWait wait = new WebDriverWait(driver, time);
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+//        driver.findElement(by).click();
+//    }
 
     // to select from drop list by index
     public static void selectByIndex(By element, int numb) {
@@ -39,10 +38,10 @@ public class Utils extends BasePage {
     }
 
     // to wait for element to be display
-    public static void waitForElementToBeDisplay(By by, int time) {
-        WebDriverWait wait = new WebDriverWait(driver, time);
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(by)));
-    }
+//    public static void waitForElementToBeDisplay(By by, int time) {
+//        WebDriverWait wait = new WebDriverWait(driver, time);
+//        wait.until(ExpectedConditions.visibilityOf(driver.findElement(by)));
+//    }
 
     // Mouse hover
     public static void mouseHover(By by) {

@@ -1,4 +1,4 @@
-package lf;
+package PO;
 import org.openqa.selenium.By;
 
 public class Services  extends  Utils
