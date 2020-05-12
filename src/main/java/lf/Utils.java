@@ -37,12 +37,14 @@ public class Utils extends BasePage {
     public static void selectByIndex(By element, int numb) {
         new Select(driver.findElement(element)).selectByIndex(numb);
     }
+
     // to wait for element to be display
     public static void waitForElementToBeDisplay(By by, int time) {
         WebDriverWait wait = new WebDriverWait(driver, time);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(by)));
     }
 
+    // Mouse hover
     public static void mouseHover(By by) {
         WebElement myelement = driver.findElement(by);
         Actions action = new Actions(driver);
@@ -56,6 +58,18 @@ public class Utils extends BasePage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+    //  To upload file
+    public static void uploadFile(By by , String a) {
+        WebElement uploadElement = driver.findElement((by));
+        // enter the file path onto the file-selection input field
+        uploadElement.sendKeys(a);
+    }
+    // This method Will clear text first and then send text
+    public static void clear_Send_Text(By by, String a){
+        WebElement ab=driver.findElement(by);
+        ab.clear();
+        ab.sendKeys(a);
     }
 }
 
